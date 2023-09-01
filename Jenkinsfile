@@ -139,7 +139,7 @@ pipeline {
         }
 
 
-
+// Upload image to amazon ecr
     stage ('Deploy the Image to Amazon ECR') {
        steps {
            script {
